@@ -159,7 +159,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
   <a href="mailto:rkddkwl059@naver.com">
     <img src="https://img.shields.io/badge/Email-181717?style=flat&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://your-notion-or-resume-link">
+  <a href="https://www.notion.so/DevOps-26f572cbac3c80778c33d467d870f822?source=copy_link">
     <img src="https://img.shields.io/badge/Resume-000000?style=flat&logo=readthedocs&logoColor=white"/>
   </a>
 
