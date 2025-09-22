@@ -138,7 +138,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
       <b>RouteMap / Broaf</b> — 지도 기반 여행·SNS (Kakao Map API)</br>
       <sub>경로 표시·리스트 UI, 성능 최적화(지연 로딩), Firebase → Spring 전환 준비</sub><br/>
       <sub>모바일 UI/UX(XML 레이아웃), RecyclerView(Adapter·ViewHolder) 구성, Kakao Map 중심 각종 외부 API 연동</sub><br/>
-      🔗 <a href="#">RouteMap</a> · <a href="#">Broaf</a>
+      🔗 <a href="#">RouteMap</a> · <a href="https://github.com/openSongce/broaf">Broaf</a>
     </td>
   </tr>
 
