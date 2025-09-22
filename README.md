@@ -1,10 +1,18 @@
 <div align="center">
 
-  ### 👋 안녕하세요 :) **성장하는 개발자** 송진우 입니다.
-  빠르게 만들고, 끝까지 운영하는 걸 좋아합니다. Android ⇄ Spring Boot ⇄ Infra(쿠버네티스/CI·CD)까지 전 과정을 직접 붙입니다.
+### 👋 안녕하세요, 송진우 입니다.
+**앱도 서버도 인프라도, 끝까지 붙이는 개발자**  
+Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영은 안정적으로 지킵니다.
 
-  <!-- 한 줄 소개 키워드 -->
-  <sub>Android • Spring Boot • gRPC • PostgreSQL • Kubernetes(k3s) • Jenkins • Traefik • JWT/OAuth</sub>
+<sub>Jetpack Compose · gRPC 실시간 동기화 · Spring Cloud(Gateway/Eureka/Config) · Jenkins+Kaniko · Traefik · cert-manager · Prom/Grafana/Loki · JWT/OAuth</sub>
+
+**제가 잘하는 것**
+- End-to-End 소유: Android 화면 → 백엔드 API → CI/CD → Ingress/TLS까지 한 흐름으로 설계/운영
+- 운영형 문제해결: 재현 스크립트·대시보드·알람으로 MTTR 단축
+- 표준화/자동화: Helm 템플릿화, 공통 게이트웨이/보안 정책, 파이프라인 일관화
+
+**가치관**
+- “됐네”에서 멈추지 않고 **“돌아간다”까지**. 재현 가능한 버그, 롤백 가능한 배포, 관찰 가능한 운영을 기본으로 합니다.
 
   <br/>
 
