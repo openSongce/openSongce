@@ -60,41 +60,84 @@
 
   <br/>
 
-  ## 💼 Projects
+## 💼 Projects
 
-  <!-- 대표 3~4개만, 한 줄 요약 + 기술/역할 -->
-  <table>
-    <tr>
-      <td>
-        <b>BookgleBookgle</b> — 실시간 PDF 협업 플랫폼 (Android + Spring Boot + gRPC)<br/>
-        <sub>gRPC 페이지 동기화, 주석/하이라이트, JWT 인증, Jenkins·k3s 배포</sub><br/>
-        🔗 <a href="#">Repo</a> · <a href="#">Demo</a> · <a href="#">Docs</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>HelloWorld</b> — 임산부 케어 앱 (Android Compose + Spring Cloud MSA)<br/>
-        <sub>구글/카카오 로그인(Credential Manager), 알림/일정, Traefik Ingress</sub><br/>
-        🔗 <a href="#">Repo</a> · <a href="#">Swagger</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Wisl</b> — 실시간 문서 공유/토론 플랫폼 (Android + gRPC + Jenkins)</br>
-        <sub>방장 페이지 동기화, 썸네일 네비게이션, k3s 운영</sub><br/>
-        🔗 <a href="#">Repo</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>RouteMap / Broaf</b> — 지도 기반 여행·SNS (Kakao Map API)</br>
-        <sub>경로 표시·리스트 UI, 성능 최적화(지연 로딩), Firebase → Spring 전환 준비</sub><br/>
-        🔗 <a href="#">RouteMap</a> · <a href="#">Broaf</a>
-      </td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <td>
+      <b>HelloWorld</b> — 임산부 케어 앱 (Android Compose + Spring Cloud MSA)<br/>
+      <sub>
+        <img src="https://img.shields.io/badge/Role-Infra%20Lead-181717?style=flat" />
+        <img src="https://img.shields.io/badge/k3s-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jenkins%20%2B%20Kaniko-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white" />
+        <img src="https://img.shields.io/badge/Traefik-Ingress-24A1C1?style=flat" />
+        <img src="https://img.shields.io/badge/cert--manager-TLS-0A7ACC?style=flat" />
+        <img src="https://img.shields.io/badge/Helm-Charts-0F1689?style=flat&logo=helm&logoColor=white" />
+        <img src="https://img.shields.io/badge/Prometheus%20%7C%20Grafana-Observability-E6522C?style=flat" />
+        <img src="https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat&logo=redis&logoColor=white" />
+      </sub><br/>
 
-  <br/>
+  <img src="assets/helloworld-arch.png" alt="HelloWorld Infrastructure Architecture" width="660"/><br/>
+
+  <details>
+    <summary><b>내 주요 기여(Infra)</b></summary>
+    <ul>
+      <li><b>클러스터</b>: AWS EC2 위 <b>k3s</b> 구성, 네임스페이스(ingress/apps/db/observability) 분리</li>
+      <li><b>배포</b>: <b>Jenkins + Kaniko</b> 이미지 빌드·푸시 → Helm/kubectl로 자동 롤링 업데이트</li>
+      <li><b>네트워킹</b>: <b>Traefik Ingress</b>, <b>cert-manager</b>로 Let’s Encrypt 자동 TLS, X-Forwarded 헤더 정합</li>
+      <li><b>MSA</b>: Spring Cloud <b>Gateway / Eureka / Config</b> 부트스트랩, JWT/OAuth 엔드포인트 집약</li>
+      <li><b>데이터</b>: PostgreSQL(서비스별 DB), <b>Redis</b> 캐시/세션, Loki/Promtail 로그 수집, Grafana 대시보드</li>
+    </ul>
+  </details>
+
+  🔗 <a href="YOUR_HELLOWORLD_REPO">Repo</a>
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>BookgleBookgle</b> — 실시간 PDF 협업 플랫폼 (Android + Spring Boot + gRPC)<br/>
+      <sub>
+        <img src="https://img.shields.io/badge/Role-Android%20%7C%20Infra-181717?style=flat" />
+        <img src="https://img.shields.io/badge/Android-Compose-3DDC84?style=flat&logo=android&logoColor=white" />
+        <img src="https://img.shields.io/badge/gRPC-1c7bd9?style=flat" />
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" />
+        <img src="https://img.shields.io/badge/k3s-Cluster-326CE5?style=flat&logo=kubernetes&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jenkins%20%2B%20Kaniko-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white" />
+        <img src="https://img.shields.io/badge/Traefik-Proxy-24A1C1?style=flat" />
+      </sub><br/>
+
+  <img src="assets/bookgle-arch.png" alt="BookgleBookgle Architecture" width="660"/><br/>
+
+  <details>
+    <summary><b>내 주요 기여</b></summary>
+    <ul>
+      <li><b>Android</b>: Jetpack Compose 기반 UI/UX, 커스텀 PDF Viewer(페이지 썸네일·하이라이트·주석),
+          <b>gRPC 페이지 동기화</b> 및 충돌 처리, Hilt/Room, JWT 인증 연동</li>
+      <li><b>Infra</b>: AWS EC2 위 <b>k3s</b> 클러스터 구성, <b>Jenkins+Kaniko</b> 파이프라인으로 이미지 빌드/배포 자동화,
+          <b>Traefik Ingress</b> 라우팅·TLS, Helm 차트 템플릿, Prometheus/Grafana 모니터링</li>
+      <li><b>Server</b>: Spring Cloud Gateway/Eureka/Config로 MSA 부트스트랩, gRPC 서버 스키마/인터셉터 협업</li>
+    </ul>
+  </details>
+
+  🔗 <a href="YOUR_REPO_LINK">Repo</a>
+</td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>RouteMap / Broaf</b> — 지도 기반 여행·SNS (Kakao Map API)</br>
+      <sub>경로 표시·리스트 UI, 성능 최적화(지연 로딩), Firebase → Spring 전환 준비</sub><br/>
+      <sub>모바일 UI/UX(XML 레이아웃), RecyclerView(Adapter·ViewHolder) 구성, Kakao Map 중심 각종 외부 API 연동</sub><br/>
+      🔗 <a href="#">RouteMap</a> · <a href="#">Broaf</a>
+    </td>
+  </tr>
+
+</table>
+
+<br>
+
 
   ## 📊 GitHub Stats
   <!-- 통계 위젯은 취향껏 1~2개만 사용해도 충분 -->
