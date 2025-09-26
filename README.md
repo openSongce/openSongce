@@ -131,7 +131,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
     </ul>
   </details>
 
-  🔗 <a href="YOUR_REPO_LINK">Repo</a> · <a href="https://www.notion.so/D204-230bf1e01d1e807d9a45eee0cd9208ec?source=copy_link">Docs</a>
+  🔗 <a href="https://github.com/openSongce/bookglebookgle">Repo</a> · <a href="https://www.notion.so/D204-230bf1e01d1e807d9a45eee0cd9208ec?source=copy_link">Docs</a>
   </td>
 </tr>
 
