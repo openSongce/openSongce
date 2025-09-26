@@ -72,6 +72,74 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
 
 <table>
   <tr>
+  <td>
+    <b>WISL</b> — 솔루션 마켓(문제→팀빌딩→펀딩→출시) 플랫폼 · K-PaaS 공모전(진행중)<br/>
+    <sub>
+      <img src="https://img.shields.io/badge/Team-%ED%81%AC%EB%A0%88PaaS-181717?style=flat" />
+      <img src="https://img.shields.io/badge/K--PaaS-%EA%B3%B5%EB%AA%A8%EC%A0%84-0B5FFF?style=flat" />
+      <img src="https://img.shields.io/badge/Status-In%20Progress-FF9800?style=flat" />
+      <img src="https://img.shields.io/badge/Android-Compose-3DDC84?style=flat&logo=android&logoColor=white" />
+      <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS-EC2-FF9900?style=flat&logo=amazonaws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jenkins%20%2B%20Kaniko-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white" />
+      <img src="https://img.shields.io/badge/Traefik-Ingress-24A1C1?style=flat" />
+      <img src="https://img.shields.io/badge/cert--manager-TLS-0A7ACC?style=flat" />
+      <img src="https://img.shields.io/badge/Helm-Charts-0F1689?style=flat&logo=helm&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prometheus%20%7C%20Grafana-Observability-E6522C?style=flat" />
+      <img src="https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/Docker%20Hub-2496ED?style=flat&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/등등 최대한 많이-181717?style=flat" />
+    </sub><br/>
+
+ 
+
+
+  <details>
+    <summary><b>개요 & 목표</b></summary>
+    <ul>
+      <li><b>배경</b>:<b>소비자 문제를 출발점</b>으로 펀딩·출시까지 이어주는 플랫폼 필요</li>
+      <li><b>목표</b>: <b>실제 문제</b> 중심의 검증형 혁신 · K-PaaS 기반 서비스화</li>
+      <li><b>핵심 값</b>: 커뮤니티 검증(공감/참여 데이터) → 리스크↓, 수익 <b>투명 분배</b></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><b>핵심 기능(트랙 A/B)</b></summary>
+    <ul>
+      <li><b>트랙 A · 아이디어 대나무숲</b>: 문제 제기·공감 수치화, 유사 문제 자동 묶기(분류)</li>
+      <li><b>트랙 B · Co-Create(비공개)</b>: e-NDA로 보호된 기획 공유, 제안 수령, 전자계약(SoW/저작권/분배)</li>
+      <li><b>펀딩/검증</b>: 리워드/선주문 연동, 베타 테스트 피드백 루프</li>
+      <li><b>정산/분배</b>: 마일스톤·에스크로 기반 자동 정산(문제제기자/개발팀/후원자)</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><b>주요 기술</b></summary>
+    <ul>
+      <li><b>Android</b>: Kotlin, Jetpack Compose, MVVM/Repository 또는 Cross-Platform</li>
+      <li><b>Backend</b>: Spring Boot, MyBatis + MySQL, REST API, MSA, Postgre, Kafka, Redis 등 </li>
+      <li><b>Infra</b>: AWS EC2 배포, Kubernetes, NCP 등 (K-PaaS 연동 계획)</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary><b>기대 효과</b></summary>
+    <ul>
+      <li><b>수요 검증</b> 기반 개발로 실패 리스크↓</li>
+      <li>문제 제기자·개발자·후원자 간 <b>투명한 수익 공유</b></li>
+      <li>지역/커뮤니티 단위의 <b>문제 해결 촉진</b></li>
+    </ul>
+  </details>
+
+
+</td>
+</tr>
+
+  <tr>
     <td>
       <b>HelloWorld</b> — 임산부 케어 앱 (Android Compose + Spring Cloud MSA)<br/>
       <sub>
