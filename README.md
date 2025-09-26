@@ -84,6 +84,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
         <img src="https://img.shields.io/badge/Prometheus%20%7C%20Grafana-Observability-E6522C?style=flat" />
         <img src="https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat&logo=postgresql&logoColor=white" />
         <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat&logo=redis&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker%20Hub-2496ED?style=flat&logo=docker&logoColor=white" />
       </sub><br/>
 
   <img src="assets/helloworld-arch.png" alt="HelloWorld Infrastructure Architecture" width="660"/><br/>
@@ -99,39 +100,75 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
     </ul>
   </details>
 
-  🔗 <a href="YOUR_HELLOWORLD_REPO">Repo</a>
+  🔗 <a href="YOUR_HELLOWORLD_REPO">Repo</a> · <a href="YOUR_NHCAFE_DOCS">Docs</a>
   </td>
   </tr>
 
   <tr>
-    <td>
-      <b>BookgleBookgle</b> — 실시간 PDF 협업 플랫폼 (Android + Spring Boot + gRPC)<br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Role-Android%20%7C%20Infra-181717?style=flat" />
-        <img src="https://img.shields.io/badge/Android-Compose-3DDC84?style=flat&logo=android&logoColor=white" />
-        <img src="https://img.shields.io/badge/gRPC-1c7bd9?style=flat" />
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" />
-        <img src="https://img.shields.io/badge/k3s-Cluster-326CE5?style=flat&logo=kubernetes&logoColor=white" />
-        <img src="https://img.shields.io/badge/Jenkins%20%2B%20Kaniko-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white" />
-        <img src="https://img.shields.io/badge/Traefik-Proxy-24A1C1?style=flat" />
-      </sub><br/>
+  <td>
+    <b>BookgleBookgle</b> — 실시간 PDF 협업 플랫폼 (Android + Spring Boot + gRPC)<br/>
+    <sub>
+      <img src="https://img.shields.io/badge/Role-Android%20%7C%20Infra-181717?style=flat" />
+      <img src="https://img.shields.io/badge/Android-Compose-3DDC84?style=flat&logo=android&logoColor=white" />
+      <img src="https://img.shields.io/badge/gRPC-1c7bd9?style=flat" />
+      <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/docker--compose-384d54?style=flat&logo=docker&logoColor=white" />
+  </sub><br/>
 
   <img src="assets/bookgle-arch.png" alt="BookgleBookgle Architecture" width="660"/><br/>
 
   <details>
     <summary><b>내 주요 기여</b></summary>
     <ul>
-      <li><b>Android</b>: Jetpack Compose 기반 UI/UX, 커스텀 PDF Viewer(페이지 썸네일·하이라이트·주석),
-          <b>gRPC 페이지 동기화</b> 및 충돌 처리, Hilt/Room, JWT 인증 연동</li>
-      <li><b>Infra</b>: AWS EC2 위 <b>k3s</b> 클러스터 구성, <b>Jenkins+Kaniko</b> 파이프라인으로 이미지 빌드/배포 자동화,
-          <b>Traefik Ingress</b> 라우팅·TLS, Helm 차트 템플릿, Prometheus/Grafana 모니터링</li>
-      <li><b>Server</b>: Spring Cloud Gateway/Eureka/Config로 MSA 부트스트랩, gRPC 서버 스키마/인터셉터 협업</li>
+    <li><b>Android</b>: Jetpack Compose 기반 UI/UX, 커스텀 PDF Viewer(페이지 썸네일·하이라이트·주석),
+        <b>gRPC 페이지 동기화</b> 및 충돌 처리, Hilt/Room, JWT 인증 연동</li>
+
+    <li><b>Infra</b>: AWS EC2에 <b>Docker</b>로 서비스 컨테이너라이징, 
+        <b>docker-compose</b>로 멀티 서비스 구성·배포, 
+        <b>Jenkins</b>로 빌드/배포 자동화</li>
+    <li><b>Server</b>: Spring Boot 기반 gRPC 서버(프로토콜 정의/인터셉터), 인증(JWT)·권한 처리 협업</li>
     </ul>
   </details>
 
-  🔗 <a href="YOUR_REPO_LINK">Repo</a>
-</td>
-  </tr>
+  🔗 <a href="YOUR_REPO_LINK">Repo</a> · <a href="YOUR_NHCAFE_DOCS">Docs</a>
+  </td>
+</tr>
+
+
+  <tr>
+  <td>
+    <b>NHCafe</b> — 음성인식 기반 AI 무인 카페 앱 (Android + Spring Boot + GPT-4o)<br/>
+    <sub>
+      <img src="https://img.shields.io/badge/Role-Android%20%7C%20AI-181717?style=flat" />
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpackcompose&logoColor=white" />
+      <img src="https://img.shields.io/badge/STT-Voice%20Input-121212?style=flat" />
+      <img src="https://img.shields.io/badge/TTS-Voice%20Guide-121212?style=flat" />
+      <img src="https://img.shields.io/badge/GPT--4o-OpenAI-412991?style=flat" />
+      <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS-EC2-FF9900?style=flat&logo=amazonaws&logoColor=white" />
+    </sub><br/>
+
+  <img src="assets/nhcafe-arch.png" alt="NHCafe Architecture (STT→GPT→TTS, Spring/MyBatis/MySQL on EC2)" width="660"/><br/>
+
+  <details>
+    <summary><b>내 주요 기여(Android · AI)</b></summary>
+    <ul>
+      <li><b>대화형 주문</b>: 음성(STT) → 텍스트 → <b>GPT-4o</b>로 의도/메뉴 파싱 → 주문 카드 자동 구성</li>
+      <li><b>음성 안내</b>: 주문 단계·확인 내용을 <b>TTS</b>로 낭독, 시각/청각 동시 안내</li>
+      <li><b>추천 메뉴</b>: 프롬프트 정책으로 실제 메뉴 중 <b>3가지 추천</b> 응답</li>
+      <li><b>앱 구조</b>: <b>MVVM + Repository</b>, Compose UI 상태관리, Retrofit 네트워킹</li>
+      <li><b>서버 연동</b>: Spring Boot + <b>MyBatis/MySQL</b> 주문/메뉴 API, AWS EC2 배포 협업</li>
+    </ul>
+  </details>
+
+  🔗 <a href="https://github.com/openSongce/NHCafe">Repo</a>
+  </td>
+</tr>
+
 
   <tr>
     <td>
@@ -141,6 +178,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
       🔗 <a href="https://github.com/openSongce/Routemap">RouteMap</a> · <a href="https://github.com/openSongce/broaf">Broaf</a>
     </td>
   </tr>
+  
 
 </table>
 
