@@ -186,18 +186,18 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
 
   <img src="assets/bookgle-arch.png" alt="BookgleBookgle Architecture" width="660"/><br/>
 
-  <details>
-    <summary><b>내 주요 기여</b></summary>
-    <ul>
-    <li><b>Android</b>: Jetpack Compose 기반 UI/UX, 커스텀 PDF Viewer(페이지 썸네일·하이라이트·주석),
-        <b>gRPC 페이지 동기화</b> 및 충돌 처리, Hilt/Room, JWT 인증 연동</li>
+<details>
+  <summary><b>내 주요 기여</b></summary>
+  <ul>
+  <li><b>Android</b>: Jetpack Compose 기반 UI/UX, 커스텀 PDF Viewer(페이지 썸네일·하이라이트·주석),
+      <b>gRPC 페이지 동기화</b> 및 충돌 처리, Hilt/Room, JWT 인증 연동</li>
 
-    <li><b>Infra</b>: AWS EC2에 <b>Docker</b>로 서비스 컨테이너라이징, 
-        <b>docker-compose</b>로 멀티 서비스 구성·배포, 
-        <b>Jenkins</b>로 빌드/배포 자동화</li>
-    <li><b>Server</b>: Spring Boot 기반 gRPC 서버(프로토콜 정의/인터셉터), 인증(JWT)·권한 처리 협업</li>
-    </ul>
-  </details>
+  <li><b>Infra</b>: AWS EC2에 <b>Docker</b>로 서비스 컨테이너라이징, 
+      <b>docker-compose</b>로 멀티 서비스 구성·배포, 
+      <b>Jenkins</b>로 빌드/배포 자동화</li>
+  <li><b>Server</b>: Spring Boot 기반 gRPC 서버(프로토콜 정의/인터셉터), 인증(JWT)·권한 처리 협업</li>
+  </ul>
+</details>
 
   🔗 <a href="https://github.com/openSongce/bookglebookgle">Repo</a> · <a href="https://www.notion.so/D204-230bf1e01d1e807d9a45eee0cd9208ec?source=copy_link">Docs</a>
   </td>
