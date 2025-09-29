@@ -1,4 +1,8 @@
 <div align="center">
+<h3>Portfolio</h3>
+<a href="assets/Song_Portfolio.pdf">
+  <img src="assets/cover.png" alt="Portfolio preview" />
+</a>
 
 ### 👋 안녕하세요, 송진우 입니다.
 **앱도 서버도 인프라도, 끝까지 붙이는 개발자**  
