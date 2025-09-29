@@ -162,7 +162,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
   <img src="assets/helloworld-arch.png" alt="HelloWorld Infrastructure Architecture" width="660"/><br/>
 
   <details>
-    <summary><b>내 주요 기여(Infra)</b></summary>
+    <summary><b>내 주요 기여(DevOps)</b></summary>
     <ul>
       <li><b>클러스터</b>: AWS EC2 위 <b>k3s</b> 구성, 네임스페이스(ingress/apps/db/observability) 분리</li>
       <li><b>배포</b>: <b>Jenkins + Kaniko</b> 이미지 빌드·푸시 → Helm/kubectl로 자동 롤링 업데이트</li>
