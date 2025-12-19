@@ -77,7 +77,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
 <table>
   <tr>
   <td>
-    <b>WISL</b> — 솔루션 마켓(문제→팀빌딩→펀딩→출시) 플랫폼 · K-PaaS 공모전(진행중)<br/>
+    <b>WISL</b> — 솔루션 마켓(문제→팀빌딩→펀딩→출시) 플랫폼 · K-PaaS 공모전<br/>
     <sub>
       <img src="https://img.shields.io/badge/Team-%ED%81%AC%EB%A0%88PaaS-181717?style=flat" />
       <img src="https://img.shields.io/badge/K--PaaS-%EA%B3%B5%EB%AA%A8%EC%A0%84-0B5FFF?style=flat" />
@@ -138,7 +138,8 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
       <li>지역/커뮤니티 단위의 <b>문제 해결 촉진</b></li>
     </ul>
   </details>
-
+  
+  🔗 <a href="https://github.com/crayon-wisl/wisl-server">Repo_server</a> · <a href="https://github.com/crayon-wisl/wisl-mobile">Repo_mobile</a>
 
 </td>
 </tr>
@@ -172,7 +173,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
     </ul>
   </details>
 
-  🔗 <a href="https://github.com/openSongce/helloworld">Repo</a> · <a href="https://www.notion.so/254b8bebd93a8057b1cdf2d9cf6d589b?source=copy_link">Docs</a>
+  🔗 <a href="https://github.com/HelloWorld-SSAFY/HelloWorld">Repo</a> · <a href="https://www.notion.so/254b8bebd93a8057b1cdf2d9cf6d589b?source=copy_link">Docs</a>
   </td>
   </tr>
 
@@ -203,7 +204,7 @@ Android ⇄ Spring Boot ⇄ k8s를 잇고, 기능은 빠르게 만들되 운영�
   </ul>
 </details>
 
-  🔗 <a href="https://github.com/openSongce/bookglebookgle">Repo</a> · <a href="https://www.notion.so/D204-230bf1e01d1e807d9a45eee0cd9208ec?source=copy_link">Docs</a>
+  🔗 <a href="https://github.com/BookgleBookgle-SSAFY/BookgleBookgle">Repo</a> · <a href="https://www.notion.so/D204-230bf1e01d1e807d9a45eee0cd9208ec?source=copy_link">Docs</a>
   </td>
 </tr>
 
